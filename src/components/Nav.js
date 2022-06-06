@@ -28,7 +28,7 @@ export default function Nav() {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   to="#"
                   id="navbarDropdown"
@@ -37,25 +37,28 @@ export default function Nav() {
                   aria-expanded="false"
                 >
                   All Products
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" to="#">
+                    {/* <a className="dropdown-item" to="#">
                       1st Product
-                    </a>
+                    </a> */}
+                    <Link className="dropdown-item" aria-current="page" to="/men">Men</Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" to="#">
+                    {/* <a className="dropdown-item" to="#">
                     2nd Product
-                    </a>
+                    </a> */}
+                    <Link className="dropdown-item" aria-current="page" to="/women">Women</Link>
                   </li>
+                  {/* <li>
+                    <hr className="dropdown-divider" />
+                  </li> */}
                   <li>
-                    {/* <hr className="dropdown-divider" /> */}
-                  </li>
-                  <li>
-                    <a className="dropdown-item" to="#">
+                    {/* <a className="dropdown-item" to="#">
                     3rd Product
-                    </a>
+                    </a> */}
+                    <Link className="dropdown-item" aria-current="page" to="/">Kids</Link>
                   </li>
                 </ul>
               </li>
@@ -65,7 +68,7 @@ export default function Nav() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Gallery</a>
+                <Link className="nav-link">Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/signin'>Sign In</Link>

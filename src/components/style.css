@@ -29,3 +29,41 @@
 .footer button{
     background-color: #13a9a9;
 }
+
+#nav-container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+#men-content{
+    display: flex;
+}
+
+.col{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.card-image{
+    height: 300px;
+    width: 290px;
+    overflow: hidden;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 285px;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: #7beaea;
+    color: black;
+}
