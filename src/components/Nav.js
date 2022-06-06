@@ -28,7 +28,7 @@ export default function Nav() {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   to="#"
                   id="navbarDropdown"
@@ -37,7 +37,7 @@ export default function Nav() {
                   aria-expanded="false"
                 >
                   All Products
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     {/* <a className="dropdown-item" to="#">
@@ -68,7 +68,7 @@ export default function Nav() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Gallery</a>
+                <Link className="nav-link">Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/signin'>Sign In</Link>

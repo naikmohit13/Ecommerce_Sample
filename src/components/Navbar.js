@@ -1,12 +1,11 @@
 import React from "react";
 import './style.css'
-import {BrowserRouter,Route,Routes, Link} from 'react-router-dom';
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Home from "./Home";
 import Usersignin from "./Usersignin";
 import Usersignup from "./Usersignup";
 import Nav from "./Nav";
 import Card from "./Card";
-import Footer from "./Footer";
 import Men from "./Men";
 
 export default function Navbar() {
