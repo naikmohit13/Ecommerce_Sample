@@ -63,12 +63,12 @@ export default function Nav() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <Link className="nav-link" to='/signin'>
                   Order Form
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">Gallery</Link>
+                <Link className="nav-link" to='/signin'>Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/signin'>Sign In</Link>
